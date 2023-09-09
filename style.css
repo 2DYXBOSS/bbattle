@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+li a {
+    text-decoration: none;
+    color: red;
+}
+li {
+    list-style-type: none;
+}
+@media (min-width : 1000px){
+    li a {
+        text-decoration: none;
+    }
+    li {
+        list-style-type: none;
+    }
+    body {
+        height: 1500px;
+        width: 100%;
+        background-color: black;
+        
+    }
+    .navbar {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        
+    }
+    header {
+        height: 700px;
+        width: 100%;
+        background: url(./image/istockphoto-1440141374-612x612.jpg) 50% no-repeat;
+        background-size: cover;
+        
+    }
+    .logo {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .losd {
+        height: 70px;
+        width: 300px;
+        margin-left: 50px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .logo1 {
+        height: 100%;
+        width: 70%;
+        display: flex;
+    }
+    .naev {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .naev ul{
+        height: 100%;
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+    }
+    .naev ul a{
+        padding: 25px 30px;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 1.2rem;
+
+    }
+    .naev ul a:hover{
+        padding: 20px 40px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        color: white;
+        border-radius: 5px;
+
+    }
+    .naev1 {
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .naev2 {
+        height: 100%;
+        width: 20%;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .tes {
+        height: 50px;
+        width: 130px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tet {
+        height: 500px;
+        width: 70%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+
+        
+    }
+    .tet p{
+        margin-top: 20px;
+
+        
+    }
+    .tet a{
+       color: white;
+
+        
+    }
+    .lodo {
+        height: 70px;
+        width: 180px;
+        background-color: red;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin: 50px;
+    }
+    section {
+        height: 2000px;
+        width: 100%;
+        background-color: white;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+    }
+    .carrez {
+        height: 300px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        margin-left: 40px;
+    }
+    .carrez h1{
+        font-size: 2rem;
+    }
+    .syd {
+        height: 250px;
+        width: 250px;
+        background: url(./image/sp.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .syd2 {
+        height: 250px;
+        width: 250px;
+        background: url(./image/istockphoto-896934378-612x612.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .syd3 {
+        height: 250px;
+        width: 250px;
+        background: url(./image/istockphoto-1471478383-612x612.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .syd1 {
+        height: 250px;
+        width: 300px;
+        margin-left: 40px;
+        
+    }
+    .suw {
+        height: 200px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding: 50px;
+    }
+    main {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+    }
+    .naver {
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 999px) {
+    .naver {
+        height: 1000px;
+        width: 100%;
+        background-color: black;
+        
+    }
+    header {
+        display: none;
+    }
+    main {
+        display: none;
+    }
+    section {
+        display: none;
+    }
+    .navs {
+        height: 100px;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lsod {
+        height: 100px;
+        width: 150px;
+        background-color: black;
+    }
+    .lsod1 {
+        height: 100px;
+        width: 150px;
+        background-color: rgb(216, 49, 49);
+    }
+    .lsj {
+        height: 200px;
+        width: 100%;
+        background: url(./image/istockphoto-1440141374-612x612.jpg) 50% no-repeat;
+        background-size: cover;
+        
+    }
+}
