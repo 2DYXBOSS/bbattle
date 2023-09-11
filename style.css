@@ -208,7 +208,7 @@ li {
 
 @media (max-width: 999px) {
     .naver {
-        height: 1000px;
+        height: 1200px;
         width: 100%;
         background-color: black;
         
@@ -225,7 +225,6 @@ li {
     .navs {
         height: 100px;
         width: 100%;
-        background-color: aqua;
         display: flex;
         justify-content: space-between;
     }
@@ -237,7 +236,7 @@ li {
     .lsod1 {
         height: 100px;
         width: 150px;
-        background-color: rgb(216, 49, 49);
+
     }
     .lsj {
         height: 200px;
@@ -245,5 +244,48 @@ li {
         background: url(./image/istockphoto-1440141374-612x612.jpg) 50% no-repeat;
         background-size: cover;
         
+    }
+    .lsj1 {
+        height: 150px;
+        width: 100%;
+       
+        
+    }
+    .lsj3 {
+        height: 150px;
+        width: 100%;
+        display: flex;
+        
+    }
+    .lqsd1 {
+        height: 100px;
+        width: 100%;
+    }
+    .lqsd {
+        margin-right: 20px;
+        height: 100px;
+        width: 100px;
+        background: url(./image/sp.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .lqsd6 {
+        margin-right: 20px;
+        height: 100px;
+        width: 100px;
+        background: url(./image/istockphoto-896934378-612x612.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .lqsd7 {
+        margin-right: 20px;
+        height: 100px;
+        width: 100px;
+        background: url(./image/istockphoto-1471478383-612x612.jpg) 50% no-repeat;
+        background-size: cover;
+    }
+    .jsuew {
+        height: 40px;
+        width: 100px;
+        background-color: red;
+        border-radius: 5px;
     }
 }
